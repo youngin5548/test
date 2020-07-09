@@ -1,0 +1,167 @@
+*{padding: 0; margin: 0}
+body{overflow-x: hidden}
+ul{list-style: none}
+a{text-decoration: none}
+.space{clear: both}
+.inner{width: 1280px; margin: 0 auto}
+
+#header{height: 133px}
+.top_header{height: 40px; border-bottom: 1px solid #e1e1e1}
+.top_header .site{float:left}
+.top_header .site li{float: left}
+.top_header .util{float: right}
+.top_header .util li{float: left}
+
+.bottom_header .menu{float: left}
+.bottom_header .menu li{float: left}
+.bottom_header .side{float: left}
+.bottom_header .side li{float: left}
+.search{float: left}
+.m_menu{float: left}
+
+.site li{width: 90px; height: 39px; text-align: center; line-height: 40px; border: 1px solid #e1e1e1; background-color: #f0f0f0; color: #6f6f6f; font-size: 12px; font-weight: bold}
+.site li:nth-child(1){height: 39px; background-color: #000; color: #fff}
+
+.top_header .inner{position: relative}
+.util{position: absolute; right: 0}
+.util li{width: 80px; height: 40px; text-align: right; line-height: 40px; font-size: 12px; font-weight: bold;}
+
+.bottom_header .inner{position: relative}
+.bottom_header .menu{position: absolute; z-index: 2;}
+.bottom_header .side{position: absolute; z-index: 2;}
+
+.bottom_header{width: 1920px; margin: 0 auto; height: 93px; line-height: 93px; font-weight: bold; font-size: 19.17px;}
+
+.menu{width: 570px; float: right}
+.menu a{color: #000}
+.menu>li{width: 190px; height: 93px; float: left; text-align: center; position: relative}
+.menu>li:hover{background-color: #b42127}
+.menu>li:hover .submenu{opacity: 1;}
+.menu a:hover{color: #fff; font-weight: bold}
+
+.submenu{position: absolute; top: 93px; background-color: rgba(61,61,61,1); transition: all 0.5s;opacity: 0; }
+.submenu>li{width: 190px; font-size: 16px; height: 60px; line-height: 60px; }
+.submenu>li>a{color: #b5b5b5; font-weight: lighter}
+
+.side{width: 570px; float: right}
+.side a{color: #000}
+.side>li{width: 190px; height: 93px; float: left; text-align: center; position: relative}
+.side>li:hover{background-color: #b42127}
+.side>li:hover .submenu{opacity: 1;}
+.side a:hover{color: #fff}
+
+.logo{position: absolute; left: 47%; right: 47%; margin: 0 auto; padding-top: 10px; padding-left: 5px}
+.side{position: absolute; right: 0}
+.m_menu{padding-left: 85px}
+
+
+
+
+
+
+
+#footer{width: 100%; height: 295px; background-color: #8c0303; color: #fff; font-weight: bold}
+
+.top_footer{height: 73px;line-height: 73px;border-bottom: 1px solid #b35959; font-size: 12.44px; color: #fff}
+.top_footer>.inner>ul:after{content: "";display: inline-block; clear: both}
+.top_footer>.inner>ul>li{float: left; padding-right: 75px}
+
+.bottom_footer{ color: #fff; margin-top: 42px;font-size: 10.74px}
+.bottom_footer>.inner:after{content: "";display: inline-block; clear: both}
+.bottom_footer>.inner>.f_logo{padding-right: 110px; padding-left: 30px}
+.bottom_footer>.inner>.f_logo, .copyright{float: left}
+.bottom_footer>.inner>.copyright>ul>li{position: relative;padding-left: 115px; padding-bottom: 10px}
+.bottom_footer>.inner>.copyright>ul>li>span{position: absolute;left: 0}
+.bottom_footer>.inner>.copyright>p{margin-top: 20px; color: #fff; font-size: 11.92px}
+.bottom_footer>.inner>.info{float: right; color: #fff; font-size: 11.92px; padding-right: 300px}
+.bottom_footer>.inner>.info>p:after{content: "";display: inline-block; clear: both}
+.bottom_footer>.inner>.info>p{float: left}
+.info p span{padding-left: 30px; font-size: 21.24px; font-weight: normal}
+
+
+
+
+
+
+
+
+
+
+#mainimg{height: 460px; background-image: url(../img/mainimg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; position: relative}
+.main_text{height: 296px; width: 618px; background: rgba(0,0,0,0.7); color: #fff; text-align: center; position: absolute; left: 20%; right: 20%; top: 20%; margin: 0 auto; border-radius: 10px}
+.main_text h2{padding-top: 60px; font-size: 52px;}
+.main_text p{padding-top: 40px; font-size: 20px}
+.main_imo1{position: absolute; left: 28px; bottom: 15px}
+.main_imo2{position: absolute; right: 28px; bottom: 15px}
+
+.main_imo1 img:hover{transform: rotateY(180deg); transition: all 0.8s}
+.main_imo2 img:hover{transform: rotateY(-180deg); transition: all 0.8s}
+
+
+
+
+
+
+#contents{height: 1682px; text-align: center}
+.box1{padding-top: 153px}
+.box1 h3{font-size: 40px}
+.box1 p{font-size: 18.16px; font-weight: bold}
+
+.box2{height: 572px; width: 1276px; border: 2px solid #636363; margin-top: 81px; position: relative}
+.box2 .icon1, .box2 .icon2, .box2 .icon3, .box2 .icon4, .box2 .icon5{position: absolute}
+.box2 h3{font-size: 26.26px}
+.box2 p{font-size: 14.52px; font-weight: bold}
+.icon1{left: 15%; top: 93px}
+.icon2{left: 30%; right: 30%; margin: 0 auto; top: 93px}
+.icon3{right: 15%; top: 93px}
+.icon4{left: 13.5%; bottom: 93px}
+.icon5{left: 30%; right: 30%; margin: 0 auto; bottom: 93px}
+
+.icon1 img:hover{transform: rotate(-40deg); transition: all 0.4s}
+.icon2 img:hover{transform: rotate(-20deg); transition: all 0.4s}
+.icon3 img:hover{transform: rotate(-30deg); transition: all 0.4s}
+.icon4 img:hover{transform: rotate(-40deg); transition: all 0.4s}
+.icon5 img:hover{transform: rotate(-50deg); transition: all 0.4s}
+
+
+
+
+.box3{position: relative}
+.left{position: absolute; width: 626px; height: 459px; background-color: #8c0303; color: #fff; left: 0; margin-top: 112px}
+.right{position: absolute;width: 626px; height: 459px; background-color: #8c0303; color: #fff; right: 0; margin-top: 112px}
+.left img{padding-top: 47px; padding-bottom: 43px}
+.left h2{font-size: 38.9px}
+.right img{padding-top: 93px; padding-bottom: 42px}
+.right h2{font-size: 38.9px}
+.btn{width: 213px; height: 61px; line-height: 61px; background-color: #242527; position: absolute; left: 30%; right: 30%; margin: 0 auto; bottom: 50px}
+.btn h4{font-size: 21.27px}
+
+.left{overflow: hidden}
+.left .go{width: 626px; height: 459px; line-height: 459px; position: absolute; background: rgba(36,37,39,1); transform: translate(0,200px); transition: all 1s}
+.left:hover .go{transform: translate(0,-319px)}
+.go a{color: #fff}
+.go a:hover{color: #fff}
+
+.right{overflow: hidden}
+.right .go2{width: 626px; height: 459px; line-height: 459px; position: absolute; background: rgba(36,37,39,1); transform: translate(-206px,100px); transition: all 1s}
+.right:hover .go2{transform: translate(-206px,-409px)}
+.go2 a{color: #fff}
+.go2 a:hover{color: #fff}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
